@@ -1,0 +1,128 @@
+body {
+  padding-top: 90px;
+  background-color: #FFFFF0;
+}
+
+/* previous-previous nav bar color light yellow green #97ED55 */
+
+
+/* previous color dbf882 */
+
+.navbar-default {
+  background-color: #C6D136;
+  height: 50px;
+  margin: auto;
+}
+#wordmark {
+  display: inline;
+}
+
+/*.nav-search-box {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}*/
+
+
+/* bring "Showing results in..."" down a bit */
+
+.lower {
+  padding-top: 10px;
+}
+.search-terms {
+  color: black;
+  border-color: white;
+}
+.rounded-corners {
+  border-radius: 10px;
+}
+.sidebar {
+  background-color: #97ED55;
+  height: 999px;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.dropdown-toggle {
+  position: fixed;
+  background-color: #FCF9D0;
+  margin-top: 30px;
+  color: black;
+  border: 1px solid #C6D136;
+}
+
+/*#deal-results{
+  border-left: thin solid #dc5650;
+}*/
+
+.round {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.expand {
+  width: 815px !important;
+}
+.navbar-default .navbar-brand {
+  color: #fffff0;
+}
+.red-search {
+  color: #dc5650;
+}
+.button-pad {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.tag-top-pad {
+  /*padding-top: 15px;*/
+  padding-left: 70px;
+}
+.tag-color-1 {
+  margin: 3px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #dc5650;
+  border-color: #dc5650;
+}
+.tag-color-2 {
+  margin: 3px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #f2b861;
+  border-color: #f2b861;
+}
+.tag-color-3 {
+  margin: 3px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #a56600;
+  border-color: #a56600;
+}
+header {
+  width: 100%;
+  position: fixed;
+}
+
+#tab-container{
+  width: 100%;
+  background-color: #FCF9D0;
+  height: 40px;
+  border-bottom: 1px solid #C6D136;
+}

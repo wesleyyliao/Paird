@@ -1,0 +1,146 @@
+
+
+body {
+  background-color: #FFFFF0;
+}
+#wordmark {
+  display: inline;
+}
+.profile-pic img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+.profile-details-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.profile-details-list input {
+  height: 20px;
+  width: 150px;
+}
+.profile-details-list button {
+  width: 150px;
+}
+.profile-details-left img {
+  width: auto;
+  height: auto;
+  max-width: 225px;
+  border: 1px solid #7F7F7F;
+  border-radius: 20px;
+}
+.profile-edit-details-left img {
+  width: auto;
+  height: auto;
+  max-width: 225px;
+  border: 1px dashed #7F7F7F;
+  border-radius: 20px;
+}
+.profile-title {
+  display: inline-block;
+}
+.profile-title button{
+  background-color: #EAB86A;
+}
+.profile-details {
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+.profile-widget {
+  padding-top: 10px;
+}
+.profile-widget input{
+width:250px;
+}
+.profile-container {
+  padding-top: 60px;
+}
+.profile-pills li {
+  padding-bottom: 10px;
+}
+.privacy {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.privacy-options {
+  padding-bottom: 1px;
+  height: 20px;
+}
+.guest-title {
+  padding-bottom: 50px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+  color: #2c0602;
+  background-color: #f2b861;
+}
+.nav-pills > li.active > a:hover {
+  background-color: #B2BA6E;
+  color: white;
+}
+.btn-default{
+  margin-top:0px !important;
+  margin-bottom:0px !important;
+}
+.round {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.expand {
+  width: 815px !important;
+}
+/**/
+.navbar-default {
+  background-color: #C6D136;
+}
+header {
+  width: 100%;
+  position: fixed;
+}
+
+.profile-left-edit img {
+  width: 500px;
+  height: auto;
+  max-width: 100%;
+  border: 1px dashed #7F7F7F;
+  border-radius: 20px;
+}
+.profile {
+  padding-bottom: 10px;
+}
+.profile-tabwidget {
+  padding-top: 10px;
+}
+.nowrap {
+  white-space: nowrap;
+}
+
+.navbar-default .navbar-brand {
+  color: #fffff0;
+}
+.red-search {
+  color: #dc5650;
+}
+.button-pad {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.tag-top-pad {
+  padding-top: 15px;
+}
+.tag-color-1 {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #FFCC00;
+}
+.tag-color-2 {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #FFFF66;
+}

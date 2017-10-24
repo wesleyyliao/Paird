@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Pair'd - Active Deals Widget</title>
+
+  <!-- Bootstrap's CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/paird_user_profile.css" rel="stylesheet">
+  <link href="css/navbar.css" rel="stylesheet">
+  <link href="css/widget.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container">
+      <div class="col-md-2">
+        <div class="nav navbar-nav">
+          <a class="navbar-brand" href="#">
+            <span class="glyphicon glyphicon-leaf"></span>
+          </a>
+          <a class="navbar-brand" href="#">
+            <img src="img/logo_cream.png" id="wordmark">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="nav navbar-nav">
+          <form class="navbar-form" role="search">
+            <div class="input-group expand">
+              <input type="text" class="form-control round" placeholder="Search . . .">
+              <span class="input-group-btn">
+                   <button type="submit" class="btn btn-default round">
+                     <span class="glyphicon glyphicon-search red-search"></span>
+              </button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="nav navbar-nav navbar-right">
+          <a class="navbar-brand" href="#">
+            <span class="glyphicon glyphicon-plus"></span>
+          </a>
+          <a class="navbar-brand button-pad" href="#">
+            <span class="glyphicon glyphicon-user"></span>
+          </a>
+          <a class="navbar-brand" href="#">
+            <span class="glyphicon glyphicon-log-out"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Profile -->
+  <div class="profile-container">
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8">
+        <!-- Edit -->
+        <div class="row">
+          <div class="col-md-2 title pull-right">
+            <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+          </div>
+        </div>
+        <!-- User Details -->
+        <div class="profile">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="profile-details-left profile-details-top">
+                <img src="img/profilepicture.jpg" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h3>John Hopkins</h3>
+              <ul class="list-details">
+                <li><h5>jhopkins@gmail.com</h5></li>
+                <li><h5>01/02/1903</h5></li>
+                <li><h5>Male</h5></li>
+                <li><h5>(987)-654-3210</h5></li>
+                <li><h5>San Diego, CA</h5></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pill Widget -->
+        <div class="profile-tabwidget">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="nav nav-pills">
+                <li role="presentation" class="active"><a href="#">Your Active Deals</a></li>
+                <li role="presentation"><a href="#">Deals History</a></li>
+                <li role="presentation"><a href="#">Shipping & Payment</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <button class = "btn btn-lg pull-right" style="background-color: #dc5650">Post New Deal <span class = "glyphicon glyphicon-plus"></span></button>
+                  <br>
+                  <br>
+                  <hr>
+                  <ul class="media-list">
+                    <li class="media">
+                      <div class="media-left media-top">
+                        <span class="glyphicon glyphicon-star"></span>
+                      </div>
+                      <div class="media-body">
+                        <a href="#">30% off Deal #342222</a>:<br> <img src="img/exampleDeal6.jpg" />
+                      </div>
+                    </li>
+                    <hr>
+                    <li class="media">
+                      <div class="media-left media-top">
+                        <span class="glyphicon glyphicon-star"></span>
+                      </div>
+                      <div class="media-body">
+                        <a href="#">Free shipping on Deal #12532</a>:<br> <img src="img/exampleDeal2.jpg" />
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-md-2">
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

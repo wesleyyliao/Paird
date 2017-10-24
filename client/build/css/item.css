@@ -1,0 +1,155 @@
+body {
+  padding-top: 50px;
+  background-color: #FFFFF0;
+}
+.round {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+#wordmark {
+  display:inline;
+}
+.expand {
+  width: 815px !important;
+}
+.navbar-default .navbar-brand {
+  color: #fffff0;
+}
+.red-search {
+  color: #dc5650;
+}
+.button-pad {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.tag-top-pad {
+  padding-top: 15px;
+}
+.tag-color-1 {
+  margin: 3px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #dc5650;
+  border-color: #dc5650;
+}
+.tag-color-2 {
+  margin: 3px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #f2b861;
+  border-color: #f2b861;
+}
+.tag-color-3 {
+  margin: 3px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #a56600;
+  border-color: #a56600;
+}
+header {
+  width: 100%;
+  position: fixed;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  /*font: ;*/
+}
+h1, h2 {
+  margin-bottom: 15px;
+}
+h3 {
+  margin-right: 15px;
+  /*margin-bottom: -50px;*/
+}
+.search-bar {
+  border-radius: 25px;
+}
+.search-button {
+  border-radius: 25px;
+  border-left: none;
+}
+.gray {
+  color: #777;
+  padding-right: 3em;
+}
+.inline {
+  display: inline !important;
+}
+
+.panel .btn {
+  margin: 0px;
+}
+.p-search {
+  /*width: 600px !important;*/
+  border-radius: 10px;
+}
+.navbar-default {
+  background-color: #C6D136;
+  /*background-color: #97ED55;*/
+  height: 50px;
+  margin: auto;
+}
+.search-terms {
+  color: black;
+  border-color: white;
+}
+.term1 {
+  background-color: #dc5650;
+}
+.term2 {
+  background-color: #f2b861;
+}
+.term3 {
+  background-color: #a56600;
+}
+.rounded-corners {
+  border-radius: 10px;
+}
+.sidebar {
+  background-color: #97ED55;
+  height: 999px;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+.panel {
+  margin-top: 10px;
+}
+hr {
+  margin: 15px 0px 15px 0px;
+}
+p {
+  margin-top: 0px;
+}
+.move-southwest {
+  padding-top: 7px;
+  margin-left: -15px;
+}
+#detail-plus {
+  padding-top: 16px;
+  margin-left: 2px;
+}
+#item-img {
+  width: 100%;
+  border: 1px dashed #7F7F7F;
+}
+.deal-button {
+  width: 135px;
+  position: fixed;
+  bottom: 20px;
+  background-color: #dc5650;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+}

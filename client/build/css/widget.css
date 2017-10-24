@@ -1,0 +1,67 @@
+.rounded-corners {
+  border-radius: 10px;
+}
+body {
+  background-color: #FFFFF0;
+}
+.round {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.expand {
+  width: 815px !important;
+}
+#wordmark {
+  display: inline;
+}
+.active {
+  color: #f2b861;
+}
+.navbar-default .navbar-brand {
+  color: #fffff0;
+}
+.red-search {
+  color: #dc5650;
+}
+.button-pad {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.tag-top-pad {
+  padding-top: 15px;
+}
+.tag-color-1 {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #FFCC00;
+}
+.tag-color-2 {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #FFFF66;
+}
+/**/
+.navbar-default {
+  background-color: #C6D136;
+}
+header {
+  width: 100%;
+  position: fixed;
+}
+
+ul.list-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.title-font {
+  font-size: 200%;
+  font-style: italic;
+}

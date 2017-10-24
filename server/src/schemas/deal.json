@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "owner": {
+      "id": "http://jsonschema.net/owner",
+      "type": "string"
+    },
+    "title": {
+      "id": "http://jsonschema.net/title",
+      "type": "string"
+    },
+    "description": {
+      "id": "http://jsonschema.net/description",
+      "type": "string"
+    },
+    "minPrice": {
+      "id": "http://jsonschema.net/minPrice",
+      "type": "integer"
+    },
+    "link": {
+      "id": "http://jsonschema.net/link",
+      "type": "string"
+    },
+    "expDate": {
+      "id": "http://jsonschema.net/expDate",
+      "type": "integer"
+    },
+    "imagePath": {
+      "id": "http://jsonschema.net/imagePath",
+      "type": "string"
+    },
+    "tags": {
+      "id": "http://jsonschema.net/tags",
+      "type": "array",
+      "items": {
+        "id": "http://jsonschema.net/tags/0",
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "owner",
+    "title",
+    "description",
+    "minPrice",
+    "link",
+    "expDate",
+    "imagePath",
+    "tags"
+  ]
+}

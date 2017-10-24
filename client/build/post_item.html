@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Pair'd - Item Description</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS goes here -->
+  <link href="css/item.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Custom HTML goes here -->
+    <nav class="navbar navbar-fixed-top navbar-default">
+      <div class="container">
+        <div class="col-md-2">
+          <div class="nav navbar-nav">
+            <a class="navbar-brand" href="#">
+              <span class="glyphicon glyphicon-leaf"></span>
+            </a>
+            <a class="navbar-brand" href="#">
+              <img src="img/logo_cream.png" id="wordmark">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="nav navbar-nav">
+            <form class="navbar-form" role="search">
+              <div class="input-group expand">
+                <input type="text" class="form-control round" placeholder="Search . . .">
+                <span class="input-group-btn">
+                     <button type="submit" class="btn btn-default round">
+                       <span class="glyphicon glyphicon-search red-search"></span>
+                </button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="nav navbar-nav navbar-right">
+            <a class="navbar-brand" href="#">
+              <span class="glyphicon glyphicon-plus"></span>
+            </a>
+            <a class="navbar-brand button-pad" href="#">
+              <span class="glyphicon glyphicon-user"></span>
+            </a>
+            <a class="navbar-brand" href="#">
+              <span class="glyphicon glyphicon-log-out"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- <div class="row">
+    </div> -->
+  <!-- The container for our grid. The outermost grid must be placed within
+           a `container` or `container-fluid` class. (Meaning: If you nest a grid
+           within a grid, you should not define another `container`)
+           What's the difference between these two types of container? There's a
+           good answer here: http://stackoverflow.com/a/22263969 -->
+  <div class="container">
+    <!-- The row that contains the three main columns of the website. -->
+    <div class="row">
+      <!-- Left sidebar: A cell that spans 2 columns -->
+      <div class="col-md-2"></div>
+      <!-- Main feed: A cell that spans 8 columns -->
+      <div class="col-md-8">
+        <!-- Status update #1 -->
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <!-- Post metadata -->
+            <div class="row">
+              <div class="col-md-8">
+                <h1><input type="text" class="form-control" placeholder="Title of Deal"></h1>
+              </div>
+              <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="URL">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="#"><img src="img/upload.jpg" id="item-img" /></a>
+              </div>
+              <div class="col-md-5">
+                <div class="row">
+                  <p>Details:</p>
+                  <input type="text" class="form-control" placeholder="Click + to add more details">
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-md-2">
+                    <p>Expires</p>
+                  </div>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control inline" placeholder="00:00 mm/dd/yyyy">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-1">
+                <br>
+                <span class="glyphicon glyphicon-plus move-southwest" id="detail-plus"></span>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-12">
+                <h2>The Deal</h2>
+                <input type="text" class="form-control" placeholder="Describe your deal in detail">
+                <br>
+                <h4>Want to participate in this deal?</h4>
+                <br>
+                <input type="text" class="form-control" placeholder="Explain to possible pairs what their part of the deal would be">
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-12">
+                <!-- <span class="hug-bottom"> -->
+                <h3 class="inline">Tags </h3>
+                <br>
+                <br>
+                <input type="text" class="form-control" placeholder="Add tags users might search to find your deal">
+                <br>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+
+          <button type="button" class="btn btn-default deal-button">
+            <h3>Post Deal</h3>
+          </button>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

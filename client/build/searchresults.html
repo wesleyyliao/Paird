@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Pair'd - Search Results</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS goes here -->
+  <link href="css/searchresults.css" rel="stylesheet">
+
+  <!-- attempting waterfall/jQuery plugin to make deal images flow -->
+  <link href="css/waterfall.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Custom HTML goes here -->
+  <nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container">
+      <div class="col-md-2">
+        <div class="nav navbar-nav">
+          <a class="navbar-brand" href="#">
+            <span class="glyphicon glyphicon-leaf"></span>
+          </a>
+          <a class="navbar-brand" href="#">
+            <img src="img/logo_cream.png" id="wordmark">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="nav navbar-nav">
+          <form class="navbar-form" role="search">
+            <div class="input-group expand">
+              <input type="text" class="form-control round" placeholder="Search . . .">
+              <span class="input-group-btn">
+                   <button type="submit" class="btn btn-default round">
+                     <span class="glyphicon glyphicon-search red-search"></span>
+              </button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="nav navbar-nav navbar-right">
+          <a class="navbar-brand" href="#">
+            <span class="glyphicon glyphicon-plus"></span>
+          </a>
+          <a class="navbar-brand button-pad" href="#">
+            <span class="glyphicon glyphicon-user"></span>
+          </a>
+          <a class="navbar-brand" href="#">
+            <span class="glyphicon glyphicon-log-out"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="tab-container">
+        <div class="col-md-2"></div>
+        <div class="btn-toolbar tag-top-pad" role="toolbar">
+          <div class="col-md-8" style="margin-left: 100px">
+            <button type="button" class="btn btn-default tag-color-1 search-terms">
+              Women <span class="glyphicon glyphicon-remove"></span>
+            </button>
+            <button type="button" class="btn btn-default tag-color-2 search-terms">
+              Jeans <span class="glyphicon glyphicon-remove"></span>
+            </button>
+            <button type="button" class="btn btn-default tag-color-3 search-terms">
+              Swim <span class="glyphicon glyphicon-remove"></span>
+            </button>
+          </div>
+        </div>
+    </div>
+  </nav>
+
+  <!-- <div class="container" id="tab-container">
+      <div class="col-md-3"></div>
+      <div class="btn-toolbar tag-top-pad" role="toolbar">
+        <div class="col-md-6">
+          <button type="button" class="btn btn-default tag-color-1 search-terms">
+            Women <span class="glyphicon glyphicon-remove"></span>
+          </button>
+          <button type="button" class="btn btn-default tag-color-2 search-terms">
+            Jeans <span class="glyphicon glyphicon-remove"></span>
+          </button>
+          <button type="button" class="btn btn-default tag-color-3 search-terms">
+            Swim <span class="glyphicon glyphicon-remove"></span>
+          </button>
+        </div>
+      </div>
+  </div> -->
+
+  <!--<div class="row">
+    <div class="col-md-offset-10 col-md-2">
+      <div class="pull-left">
+        <div class="dropdown">
+          Sort by
+          <button class="btn dropdown-toggle sortby" type="button" data-toggle="dropdown">
+            <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Recent</a></li>
+            <li><a href="#">Price: High to Low</a></li>
+            <li><a href="#">Price: Low to High</a></li>
+          </ul>
+        </div>
+        <br>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="col-md-2 col-md-offset-3 lower">
+      Showing results in...
+    </div>
+    <div class="col-md-7">
+      <div class="btn-toolbar" role="toolbar">
+        <button type="button" class="btn btn-default navbar-btn rounded-corners search-terms term1">
+          women <span class="glyphicon glyphicon-remove"></span>
+        </button>
+        <button type="button" class="btn btn-default navbar-btn rounded-corners search-terms term2">
+          jeans <span class="glyphicon glyphicon-remove"></span>
+        </button>
+        <button type="button" class="btn btn-default navbar-btn rounded-corners search-terms term3">
+          swim <span class="glyphicon glyphicon-remove"></span>
+        </button>
+      </div>
+    </div>
+
+  </div>-->
+
+  <!--end of class=upper for the nav bar and search terms bar together-->
+
+  <!-- divider line here to separate search terms from search results -->
+  <hr>
+
+  <!-- The container for our grid. The outermost grid must be placed within
+         a `container` or `container-fluid` class. (Meaning: If you nest a grid
+         within a grid, you should not define another `container`)
+         What's the difference between these two types of container? There's a
+         good answer here: http://stackoverflow.com/a/22263969 -->
+  <div class="container">
+    <!-- The row that contains the three main columns of the website. -->
+    <div class="row">
+      <!-- Left sidebar: A cell that spans 1 column -->
+      <div class="col-md-2" id="order-results">
+        <!--Left Sidebar use offset if blank later ^^-->
+          <div class="dropdown pull-left">
+            <button class="btn dropdown-toggle sortby" type="button" data-toggle="dropdown">
+              Show Results By <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Recent</a></li>
+              <li><a href="#">Price: High to Low</a></li>
+              <li><a href="#">Price: Low to High</a></li>
+            </ul>
+          </div>
+      </div>
+      <!-- Main feed: A cell that spans 10 columns -->
+      <div class="col-md-8" id="deal-results">
+        <!--DEAL RESULTS HERE, which in real website will be arranged with jQuery plugin
+          http://www.jqueryscript.net/layout/Yet-Another-Pinterest-Like-Layout-Plugin-For-jQuery-waterfall.html-->
+        <br><img src="img/dealsC.jpg">
+      </div>
+      <!-- Right sidebar: A cell that spans 1 column -->
+      <div class="col-md-2">
+        <!--Right Sidebar-->
+      </div>
+    </div>
+  </div>
+  <!-- end of container -->
+
+  <!-- part of the jQuery waterfall pinterest-like image flow to try -->
+  <script type="text/x-handlebars-template" id="waterfall-tpl">
+    {{#result}}
+    <div class="item">
+      <img src="{{image}}" width="{{width}}" height="{{height}}" />
+    </div>
+    {{/result}}
+  </script>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- App code -->
+  <script src="js/bundle.js"></script>
+
+  <!-- jQuery necessary for waterfall pinterest-like deal image flow
+    <script src="js/jquery.js"></script>-->
+  <script src="js/handlebars.js"></script>
+  <script src="js/waterfall.min.js"></script>
+
+  <!-- part of the jQuery waterfall pinterest-like image flow to try -->
+  <script>
+    $('#container').waterfall({
+      itemCls: 'item',
+      colWidth: 222,
+      gutterWidth: 15,
+      gutterHeight: 15,
+      checkImagesLoaded: false,
+      path: function(page) {
+        return 'data/data1.json?page=' + page;
+      }
+    });
+  </script>
+
+
+</body>
+
+</html>
